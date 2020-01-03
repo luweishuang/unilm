@@ -3,7 +3,7 @@ DATA_DIR=../data/cnndm_data
 OUTPUT_DIR=../model/cnn_finetuned/
 MODEL_RECOVER_PATH=../model/unilmv1-large-cased.bin
 export PYTORCH_PRETRAINED_BERT_CACHE=../model/bert-cased-pretrained-cache
-export CUDA_VISIBLE_DEVICES=0,1
+export CUDA_VISIBLE_DEVICES=0
 python biunilm/run_seq2seq.py --do_train --amp --num_workers 0 \
   --bert_model bert-large-cased --new_segment_ids --tokenized_input \
   --data_dir ${DATA_DIR} \
