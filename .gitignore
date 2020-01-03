@@ -1,6 +1,12 @@
 .idea/
 model/
 outputs/
+data/bigPatentData.tar.gz
+data/cnndm.tar.gz
+data/cnndm_data.zip
+data/cnndm_data/
+data/ggw_data.zip
+data/ggw_data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
